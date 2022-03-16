@@ -1,0 +1,12 @@
+### PHP Variablen 
+	Variables in PHP are represented by a dollar sign followed by the name of the variable. The variable name is case-sensitive.
+
+	<?php
+	$var = 'Bob';
+	$Var = 'Joe';
+	echo "$var, $Var";      // outputs "Bob, Joe"
+
+	$4site = 'not yet';     // invalid; starts with a number
+	$_4site = 'not yet';    // valid; starts with an underscore
+	$täyte = 'mansikka';    // valid; 'ä' is (Extended) ASCII 228.
+	?>
