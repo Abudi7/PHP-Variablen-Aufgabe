@@ -1,0 +1,18 @@
+/* style for outputDBArticle.php */
+button {
+    background-color: #990000;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+  }
+  button a {
+      color:white;
+      text-decoration: none;
+  }
+  button:hover{
+    background-color: #cc0000;
+  }
+  h2 a.title{
+      text-decoration: none;
+      color: #0061ff;
+  }
