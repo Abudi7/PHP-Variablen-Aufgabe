@@ -57,7 +57,7 @@ $("button.publish").on("click",function(e) {
     var button = $(this);
     alert(id);
     $.ajax({
-        url: '/PHP-DataBank/admin/publish.php' ,
+        url: '/Udemy-CMS/admin/publish.php' ,
         type: 'POST',
         data: {id: id}
     }).done(function (data) {
